@@ -1,0 +1,115 @@
+
+
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <meta charset="utf-8">
+    <title>Gofeeder Maintenance</title>
+    <meta name="keywords" content="HTML5, Bootstrap 3, Admin Template, UI Theme"/>
+    <meta name="description" content="Alliance - A Responsive HTML5 Admin UI Framework">
+    <meta name="author" content="ThemeREX">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700'>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic' rel='stylesheet'
+          type='text/css'>
+
+    <!-- <link rel="stylesheet" type="text/css" href="https://stikomcki.gofeedercloud.com/application/assets/portal/assets/skin/default_skin/css/theme.css"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="https://stikomcki.gofeedercloud.com/application/assets/portal/assets/allcp/forms/css/forms.css"> -->
+    <link rel="stylesheet" type="text/css" href="css/theme.css"/>
+    <link rel="stylesheet" type="text/css" href="css/forms.css"/>
+    <link rel="shortcut icon" href="https://stikomcki.gofeedercloud.com/application/assets/portal/img/d2.png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+    <link rel="shortcut icon" href="https://stikomcki.gofeedercloud.com/uploads/images/favicon.png" />
+    <style>
+        .footer {
+          position: fixed;
+          left: 0;
+          bottom: 0;
+          width: 100%;
+          padding: 10px;
+          background-color: #2A2F43;
+          color: white;
+          text-align: center;
+        }
+        </style>
+</head>
+
+<body class="utility-page sb-l-c sb-r-c">
+
+<!-- -------------- Body Wrap  -------------- -->
+<div id="main" class="animated fadeIn">
+
+    <!-- -------------- Main Wrapper -------------- -->
+    <section id="content_wrapper">
+
+        <div id="canvas-wrapper">
+            <canvas id="demo-canvas"></canvas>
+        </div>
+
+        <!-- -------------- Content -------------- -->
+        <section id="content" class="theme-primary">
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                    <center>
+                        <img src="https://stikomcki.gofeedercloud.com/application/assets/images/logo----.png" class="img-responsive">
+                    </center>
+                </div>
+                <div class="col-md-4"></div>
+            </div>
+            <div class="row">
+                <div class="allcp-form" style="margin-top: 20px;">
+                
+                    <div class="section" style="font-family: 'Acme', sans-serif;">
+                        <center>
+                            <h3 style="color: white;">Mohon maaf GoFeeder Cloud dari</h3>
+                            <h2>STIKOM Cipta Karya Informatika</h2>
+                            <h3 style="color: white;">Sedang dalam pemeliharaan (Maintenance)</h3>
+                            <h3 style="color: white;">Mohon tunggu beberapa saat</h3>
+                        </center>
+                    </div>
+                    <!-- -------------- /Panel -------------- -->
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom: 40px;">
+            </div>
+        </section>
+    </section>
+</div>
+<div class="footer">
+    <span class="footer-legal">© 2021 <a href="http://gofeeder.sevima.com/" target="_blank">SEVIMA GoFeeder</a></span>
+</div>
+<script src="https://stikomcki.gofeedercloud.com/application/assets/portal/assets/js/jquery/jquery-1.11.3.min.js"></script>
+<script src="https://stikomcki.gofeedercloud.com/application/assets/portal/assets/js/jquery/jquery_ui/jquery-ui.min.js"></script>
+<script src="https://stikomcki.gofeedercloud.com/application/assets/portal/assets/js/plugins/canvasbg/canvasbg.js"></script>
+<script src="https://stikomcki.gofeedercloud.com/application/assets/portal/assets/js/utility/utility.js"></script>
+<script src="https://stikomcki.gofeedercloud.com/application/assets/portal/assets/js/demo/demo.js"></script>
+<script src="https://stikomcki.gofeedercloud.com/application/assets/portal/assets/js/main.js"></script>
+<script type="text/javascript">
+    jQuery(document).ready(function () {
+
+        "use strict";
+
+        // Init Theme Core
+        Core.init();
+
+        // Init Demo JS
+        Demo.init();
+
+        // Init CanvasBG
+        CanvasBG.init({
+            Loc: {
+                x: window.innerWidth / 5,
+                y: window.innerHeight / 10
+            }
+        });
+
+    });
+</script>
+
+</body>
+</html>
